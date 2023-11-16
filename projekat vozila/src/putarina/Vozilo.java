@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 
 public abstract class Vozilo 
 {
-	public double CenaPutarine = 57;
+	public double CenaPutarine = 100;
 	
 	DecimalFormat CenaPutarineFormat = new DecimalFormat("#.00");
 	

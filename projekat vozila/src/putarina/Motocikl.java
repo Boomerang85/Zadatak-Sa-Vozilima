@@ -4,16 +4,16 @@ import java.text.DecimalFormat;
 
 public class Motocikl extends Vozilo
 {
-	public int BrojVozaca;
+	private int BrojVozaca;
 	
-	public void BrojVozaca()
+	public Motocikl()
 	{
 		
 	}
 	
 	DecimalFormat CenaPutarineFormat = new DecimalFormat("#.00");
 	
-	public double NaplatiPutarinu()
+	public double NaplatiPutarinu(double CenaPutarine)
 	{
 		if(BrojVozaca == 1)
 		{

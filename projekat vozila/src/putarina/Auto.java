@@ -4,25 +4,29 @@ import java.text.DecimalFormat;
 
 public class Auto extends Vozilo
 {
-	public int BrojPutnika;
+	private int BrojPutnika;
 	
-	public void BrojPutnika()
+	public Auto()
 	{
 		
 	}
 	
 	DecimalFormat CenaPutarineFormat = new DecimalFormat("#.00");
 	
-	public double NaplatiPutarinu()
+	public double NaplatiPutarinu(double CenaPutarine)
 	{
-		return CenaPutarine = CenaPutarine + (BrojPutnika / 10) * CenaPutarine;
+		CenaPutarine = CenaPutarine + (CenaPutarine / 10) * BrojPutnika;
+		
+		return CenaPutarine;
 	}
+
 	public int getBrojPutnika() {
 		return BrojPutnika;
 	}
+
 	public void setBrojPutnika(int brojPutnika) {
 		BrojPutnika = brojPutnika;
 	}
-	
+
 	
 }
